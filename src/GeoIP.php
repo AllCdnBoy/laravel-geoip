@@ -83,7 +83,7 @@ class GeoIP
     /**
      * Get the location from the provided IP.
      *
-     * @param string $ip
+     * @param string|null $ip
      *
      * @return \InteractionDesignFoundation\GeoIP\Location
      * @throws \Exception
